@@ -16,7 +16,7 @@
  */
 namespace P7Graph\Adaptor;
 
-class Imagick
+class Imagick implements AdaptorInterface
 {
 
     /**

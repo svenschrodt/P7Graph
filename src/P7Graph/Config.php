@@ -2,7 +2,7 @@
 /**
  * \P7Graph\Config
  *
- * Class for configuration of graphs with (useful) default values
+ * Class for configuration of graphs with (useful???) default values
  *
  * - magical interceptors for READONLY access to class members
  * - explicit setter functions for validation purposes
@@ -32,14 +32,14 @@ class Config
      * 
      * @var integer
      */
-    protected $maxWidth = 1024;
+    protected $maxWidth = 400;
     
     /**
      * Default image height
      *
      * @var integer
      */
-    protected $maxHeight = 768;
+    protected $maxHeight = 400;
     
     
     /**
